@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "842125010099",
+    "firebase_url": "https://swipeapp-4621c.firebaseio.com",
+    "project_id": "swipeapp-4621c",
+    "storage_bucket": "swipeapp-4621c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842125010099:android:5ff6f8ab38582a42d53cc6",
+        "android_client_info": {
+          "package_name": "com.example.weagree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "842125010099-3fr1qtte8es6gl4hun36hje6k2d9mhdp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDieERxFv5IQ_fQLbYxXObH5yCeP22SfNg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "842125010099-3fr1qtte8es6gl4hun36hje6k2d9mhdp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

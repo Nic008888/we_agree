@@ -24,6 +24,13 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
+  void _onDragEnd(DragEndDetails details) {
+    if (details.velocity.pixelsPerSecond.dx.abs() > 365.0) {
+      double visualVelocity = details.velocity.pixelsPerSecond.dx / MediaQuery.of(context).size.width;
+    }
+
+  }
+
   List<Widget> _getMatchCard() {
     List<MatchCard> cards = new List();
     cards.add(MatchCard(activityList[1].members[0].name, Colors.teal[200], 10));
